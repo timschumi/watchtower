@@ -1,6 +1,6 @@
 module github.com/containrrr/watchtower
 
-go 1.18
+go 1.23.0
 
 require (
 	github.com/containrrr/shoutrrr v0.8.0
@@ -17,7 +17,7 @@ require (
 	github.com/spf13/pflag v1.0.5
 	github.com/spf13/viper v1.16.0
 	github.com/stretchr/testify v1.8.4
-	golang.org/x/net v0.17.0
+	golang.org/x/net v0.41.0
 )
 
 require github.com/docker/distribution v2.8.3+incompatible // indirect
@@ -58,8 +58,8 @@ require (
 	github.com/spf13/jwalterweatherman v1.1.0 // indirect
 	github.com/stretchr/objx v0.5.0 // indirect
 	github.com/subosito/gotenv v1.4.2 // indirect
-	golang.org/x/sys v0.13.0 // indirect
-	golang.org/x/text v0.14.0
+	golang.org/x/sys v0.33.0 // indirect
+	golang.org/x/text v0.26.0
 	golang.org/x/time v0.1.0 // indirect
 	google.golang.org/protobuf v1.31.0 // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
