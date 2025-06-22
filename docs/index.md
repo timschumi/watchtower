@@ -8,32 +8,23 @@
 <p align="center">
   A container-based solution for automating Docker container base image updates.
   <br/><br/>
-  <a href="https://circleci.com/gh/containrrr/watchtower">
-    <img alt="Circle CI" src="https://circleci.com/gh/containrrr/watchtower.svg?style=shield" />
+  <a href="https://godoc.org/github.com/timschumi/watchtower">
+    <img alt="GoDoc" src="https://godoc.org/github.com/timschumi/watchtower?status.svg" />
   </a>
-  <a href="https://codecov.io/gh/containrrr/watchtower">
-    <img alt="Codecov" src="https://codecov.io/gh/containrrr/watchtower/branch/main/graph/badge.svg">
+  <a href="https://goreportcard.com/report/github.com/timschumi/watchtower">
+    <img alt="Go Report Card" src="https://goreportcard.com/badge/github.com/timschumi/watchtower" />
   </a>
-  <a href="https://godoc.org/github.com/containrrr/watchtower">
-    <img alt="GoDoc" src="https://godoc.org/github.com/containrrr/watchtower?status.svg" />
-  </a>
-  <a href="https://goreportcard.com/report/github.com/containrrr/watchtower">
-    <img alt="Go Report Card" src="https://goreportcard.com/badge/github.com/containrrr/watchtower" />
-  </a>
-  <a href="https://github.com/containrrr/watchtower/releases">
-    <img alt="latest version" src="https://img.shields.io/github/tag/containrrr/watchtower.svg" />
+  <a href="https://github.com/timschumi/watchtower/releases">
+    <img alt="latest version" src="https://img.shields.io/github/tag/timschumi/watchtower.svg" />
   </a>
   <a href="https://www.apache.org/licenses/LICENSE-2.0">
-    <img alt="Apache-2.0 License" src="https://img.shields.io/github/license/containrrr/watchtower.svg" />
+    <img alt="Apache-2.0 License" src="https://img.shields.io/github/license/timschumi/watchtower.svg" />
   </a>
-  <a href="https://www.codacy.com/gh/containrrr/watchtower/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=containrrr/watchtower&amp;utm_campaign=Badge_Grade">
-    <img alt="Codacy Badge" src="https://app.codacy.com/project/badge/Grade/1c48cfb7646d4009aa8c6f71287670b8"/>
+  <a href="https://github.com/timschumi/watchtower/#contributors">
+    <img alt="All Contributors" src="https://img.shields.io/github/all-contributors/timschumi/watchtower" />
   </a>
-  <a href="https://github.com/containrrr/watchtower/#contributors">
-    <img alt="All Contributors" src="https://img.shields.io/github/all-contributors/containrrr/watchtower" />
-  </a>
-  <a href="https://hub.docker.com/r/containrrr/watchtower">
-    <img alt="Pulls from DockerHub" src="https://img.shields.io/docker/pulls/containrrr/watchtower.svg" />
+  <a href="https://hub.docker.com/r/timschumi/watchtower">
+    <img alt="Pulls from DockerHub" src="https://img.shields.io/docker/pulls/timschumi/watchtower.svg" />
   </a>
 </p>
 
@@ -50,7 +41,7 @@ the following command:
     $ docker run -d \
     --name watchtower \
     -v /var/run/docker.sock:/var/run/docker.sock \
-    containrrr/watchtower
+    timschumi/watchtower
     ```
 
 === "docker-compose.yml"
@@ -59,7 +50,7 @@ the following command:
     version: "3"
     services:
       watchtower:
-        image: containrrr/watchtower
+        image: timschumi/watchtower
         volumes:
           - /var/run/docker.sock:/var/run/docker.sock
     ```
