@@ -10,9 +10,9 @@ import (
 
 	"github.com/containrrr/shoutrrr"
 	"github.com/containrrr/shoutrrr/pkg/types"
+	log "github.com/sirupsen/logrus"
 	"github.com/timschumi/watchtower/pkg/notifications/templates"
 	t "github.com/timschumi/watchtower/pkg/types"
-	log "github.com/sirupsen/logrus"
 )
 
 // LocalLog is a logrus logger that does not send entries as notifications

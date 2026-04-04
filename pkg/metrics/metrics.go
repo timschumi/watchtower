@@ -1,9 +1,9 @@
 package metrics
 
 import (
-	"github.com/timschumi/watchtower/pkg/types"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
+	"github.com/timschumi/watchtower/pkg/types"
 )
 
 var metrics *Metrics

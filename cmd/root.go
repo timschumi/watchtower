@@ -11,6 +11,8 @@ import (
 	"syscall"
 	"time"
 
+	"github.com/robfig/cron"
+	log "github.com/sirupsen/logrus"
 	"github.com/timschumi/watchtower/internal/actions"
 	"github.com/timschumi/watchtower/internal/flags"
 	"github.com/timschumi/watchtower/internal/meta"
@@ -22,8 +24,6 @@ import (
 	"github.com/timschumi/watchtower/pkg/metrics"
 	"github.com/timschumi/watchtower/pkg/notifications"
 	t "github.com/timschumi/watchtower/pkg/types"
-	"github.com/robfig/cron"
-	log "github.com/sirupsen/logrus"
 
 	"github.com/spf13/cobra"
 )

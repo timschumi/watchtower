@@ -2,11 +2,11 @@ package registry
 
 import (
 	"context"
+	ref "github.com/distribution/reference"
 	imageTypes "github.com/docker/docker/api/types/image"
+	log "github.com/sirupsen/logrus"
 	"github.com/timschumi/watchtower/pkg/registry/helpers"
 	watchtowerTypes "github.com/timschumi/watchtower/pkg/types"
-	ref "github.com/distribution/reference"
-	log "github.com/sirupsen/logrus"
 )
 
 // GetPullOptions creates a struct with all options needed for pulling images from a registry

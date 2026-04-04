@@ -3,15 +3,15 @@ package actions_test
 import (
 	"time"
 
-	"github.com/timschumi/watchtower/internal/actions"
-	"github.com/timschumi/watchtower/pkg/types"
 	dockerTypes "github.com/docker/docker/api/types"
 	dockerContainer "github.com/docker/docker/api/types/container"
 	"github.com/docker/go-connections/nat"
+	"github.com/timschumi/watchtower/internal/actions"
+	"github.com/timschumi/watchtower/pkg/types"
 
-	. "github.com/timschumi/watchtower/internal/actions/mocks"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
+	. "github.com/timschumi/watchtower/internal/actions/mocks"
 )
 
 func getCommonTestData(keepContainer string) *TestData {

@@ -5,9 +5,9 @@ import (
 	"strings"
 	"time"
 
-	ty "github.com/timschumi/watchtower/pkg/types"
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
+	ty "github.com/timschumi/watchtower/pkg/types"
 )
 
 // NewNotifier creates and returns a new Notifier, using global configuration.

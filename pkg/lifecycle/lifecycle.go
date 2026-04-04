@@ -1,9 +1,9 @@
 package lifecycle
 
 import (
+	log "github.com/sirupsen/logrus"
 	"github.com/timschumi/watchtower/pkg/container"
 	"github.com/timschumi/watchtower/pkg/types"
-	log "github.com/sirupsen/logrus"
 )
 
 // ExecutePreChecks tries to run the pre-check lifecycle hook for all containers included by the current filter.

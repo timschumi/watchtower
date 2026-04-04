@@ -6,11 +6,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/timschumi/watchtower/pkg/container"
-	wt "github.com/timschumi/watchtower/pkg/types"
 	"github.com/docker/docker/api/types"
 	dockerContainer "github.com/docker/docker/api/types/container"
 	"github.com/docker/go-connections/nat"
+	"github.com/timschumi/watchtower/pkg/container"
+	wt "github.com/timschumi/watchtower/pkg/types"
 )
 
 // CreateMockContainer creates a container substitute valid for testing

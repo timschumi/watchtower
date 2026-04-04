@@ -9,10 +9,10 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/timschumi/watchtower/pkg/registry/helpers"
-	"github.com/timschumi/watchtower/pkg/types"
 	ref "github.com/distribution/reference"
 	"github.com/sirupsen/logrus"
+	"github.com/timschumi/watchtower/pkg/registry/helpers"
+	"github.com/timschumi/watchtower/pkg/types"
 )
 
 // ChallengeHeader is the HTTP Header containing challenge instructions

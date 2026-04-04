@@ -3,13 +3,13 @@ package actions
 import (
 	"errors"
 
+	log "github.com/sirupsen/logrus"
 	"github.com/timschumi/watchtower/internal/util"
 	"github.com/timschumi/watchtower/pkg/container"
 	"github.com/timschumi/watchtower/pkg/lifecycle"
 	"github.com/timschumi/watchtower/pkg/session"
 	"github.com/timschumi/watchtower/pkg/sorter"
 	"github.com/timschumi/watchtower/pkg/types"
-	log "github.com/sirupsen/logrus"
 )
 
 // Update looks at the running Docker containers to see if any of the images

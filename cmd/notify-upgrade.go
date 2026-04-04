@@ -9,10 +9,10 @@ import (
 	"syscall"
 	"time"
 
+	"github.com/spf13/cobra"
 	"github.com/timschumi/watchtower/internal/flags"
 	"github.com/timschumi/watchtower/pkg/container"
 	"github.com/timschumi/watchtower/pkg/notifications"
-	"github.com/spf13/cobra"
 )
 
 var notifyUpgradeCommand = NewNotifyUpgradeCommand()

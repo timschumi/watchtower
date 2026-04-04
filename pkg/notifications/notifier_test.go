@@ -5,11 +5,11 @@ import (
 	"net/url"
 	"time"
 
+	. "github.com/onsi/ginkgo"
+	. "github.com/onsi/gomega"
 	"github.com/timschumi/watchtower/cmd"
 	"github.com/timschumi/watchtower/internal/flags"
 	"github.com/timschumi/watchtower/pkg/notifications"
-	. "github.com/onsi/ginkgo"
-	. "github.com/onsi/gomega"
 )
 
 var _ = Describe("notifications", func() {

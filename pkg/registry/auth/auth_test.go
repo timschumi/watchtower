@@ -11,10 +11,10 @@ import (
 	"github.com/timschumi/watchtower/internal/actions/mocks"
 	"github.com/timschumi/watchtower/pkg/registry/auth"
 
-	wtTypes "github.com/timschumi/watchtower/pkg/types"
 	ref "github.com/distribution/reference"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
+	wtTypes "github.com/timschumi/watchtower/pkg/types"
 )
 
 func TestAuth(t *testing.T) {

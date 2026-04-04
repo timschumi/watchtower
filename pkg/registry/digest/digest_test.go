@@ -2,12 +2,12 @@ package digest_test
 
 import (
 	"fmt"
-	"github.com/timschumi/watchtower/internal/actions/mocks"
-	"github.com/timschumi/watchtower/pkg/registry/digest"
-	wtTypes "github.com/timschumi/watchtower/pkg/types"
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
 	"github.com/onsi/gomega/ghttp"
+	"github.com/timschumi/watchtower/internal/actions/mocks"
+	"github.com/timschumi/watchtower/pkg/registry/digest"
+	wtTypes "github.com/timschumi/watchtower/pkg/types"
 	"net/http"
 	"os"
 	"testing"
